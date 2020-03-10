@@ -1,0 +1,40 @@
+.description {
+  margin-bottom: 44px;
+  &__title {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 10px;
+  }
+
+  &__more {
+    @include mainFontStyle;
+    color: #687c94;
+    margin-bottom: 15px;
+  }
+
+  &__condition {
+    display: grid;
+    grid-template-columns: repeat(3, 82px);
+    grid-column-gap: 5px;
+    margin-bottom: 28px;
+  }
+
+  &__text {
+    height: 120px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    margin-bottom: 28px;
+  }
+
+  &__link {
+    @include mainFontStyle;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+
+    &:hover {
+      color: #00acdc;
+    }
+  }
+}

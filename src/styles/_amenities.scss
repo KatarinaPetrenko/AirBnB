@@ -1,0 +1,28 @@
+.amenities {
+  margin-bottom: 66px;
+
+  &__title {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 21px;
+  }
+
+  &__including {
+    display: grid;
+    grid-template-columns: repeat(2, 176px);
+    grid-template-rows: repeat(2, 29px);
+    grid-column-gap: 20px;
+    grid-row-gap: 13px;
+    margin-bottom: 13px;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+
+    &:hover {
+      color: #00acdc;
+    }
+  }
+}

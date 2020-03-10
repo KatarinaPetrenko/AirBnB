@@ -1,0 +1,52 @@
+.hosted {
+  margin-bottom: 75px;
+  &__title {
+    font-size: 28px;
+    line-height: 33px;
+    font-weight: bold;
+    margin-bottom: 11px;
+  }
+
+  &__where {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 11px;
+  }
+
+  &__text {
+    @include mainFontStyle;
+    margin-bottom: 30px;
+  }
+
+  &__button {
+    display: block;
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #118488;
+    border-radius: 4px;
+    background-color: #fff;
+
+    transition: 0.5s;
+
+    &:hover {
+      background-color: #118488;
+    }
+
+  }
+
+  &__link {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #118488;
+    text-decoration: none;
+
+    transition: 0.5s;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+

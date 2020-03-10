@@ -1,3 +1,50 @@
-body {
+@import "mixins";
+@import "variables";
+@import "header";
+@import "_nav";
+@import "footer";
+@import "_description";
+@import "_amenities";
+@import "_reviews.scss";
+@import "_hosted";
+@import "_booking";
+
+
+@font-face {
+  font-family: Avenir;
+  src: url("../fonts/Avenir-Book.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url("../fonts/Avenir-Heavy.ttf");
+  font-weight: bold;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
   margin: 0;
+  font-family: Avenir, sans-serif;
+  color: $mainColor;
+}
+
+.promo {
+  background-image: url(../images/promo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 464px;
+}
+
+.main-container {
+  width: 901px;
+  margin: 39px auto;
+  display: flex;
+  justify-content: space-between;
 }

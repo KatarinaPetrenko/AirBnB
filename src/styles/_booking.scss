@@ -1,0 +1,51 @@
+.booking {
+  width: 330px;
+  height: 319px;
+  box-sizing: border-box;
+  border: 1px solid #e1e7ed;
+  border-radius: 3px;
+  padding: 30px 30px 38px 30px;
+  margin-left: 80px;
+
+  &__price {
+    margin-bottom: 39px;
+  }
+
+  &__input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #e1e7ed;
+    border-radius: 3px;
+    margin-bottom: 16px;
+  }
+
+  &__button {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    background-color: #fd5c63;
+    border-radius: 4px;
+    border: 1px solid transparent;
+
+    transition: 0.5s;
+
+    &:hover {
+      background-color: #fff;
+      border: 1px solid #fd5c63;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+    @include mainFontStyle;
+
+    transition: 0.5s;
+
+    &:hover {
+      color: #fd5c63;
+    }
+  }
+}
