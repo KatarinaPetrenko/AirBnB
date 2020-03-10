@@ -1,0 +1,25 @@
+.footer {
+  -webkit-box-shadow: 0 -1px 0 #e1e7ed;
+          box-shadow: 0 -1px 0 #e1e7ed; }
+  .footer__lists {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .footer__title {
+    margin-top: 44px;
+    margin-bottom: 20px; }
+  .footer__list {
+    list-style-type: none;
+    margin-bottom: 43px; }
+  .footer__item {
+    margin-bottom: 9px; }
+  .footer__link {
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+    .footer__link:hover {
+      color: #00acdc; }
+
+/*# sourceMappingURL=footer.css.map */

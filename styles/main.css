@@ -1,0 +1,283 @@
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  line-height: 60px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 0 #e1e7ed;
+          box-shadow: 0 1px 0 #e1e7ed; }
+
+.header__link {
+  line-height: 0; }
+
+.header__logo {
+  width: 30px;
+  height: 30px; }
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold; }
+
+.nav__item {
+  margin-left: 30px; }
+
+.nav__link {
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+  .nav__link:hover {
+    color: #00acdc; }
+
+.nav__link--photo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; }
+
+.footer {
+  -webkit-box-shadow: 0 -1px 0 #e1e7ed;
+          box-shadow: 0 -1px 0 #e1e7ed; }
+  .footer__lists {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .footer__title {
+    margin-top: 44px;
+    margin-bottom: 20px; }
+  .footer__list {
+    list-style-type: none;
+    margin-bottom: 43px; }
+  .footer__item {
+    margin-bottom: 9px; }
+  .footer__link {
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+    .footer__link:hover {
+      color: #00acdc; }
+
+.description {
+  margin-bottom: 44px; }
+  .description__title {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 10px; }
+  .description__more {
+    font-size: 16px;
+    line-height: 19px;
+    color: #687c94;
+    margin-bottom: 15px; }
+  .description__condition {
+    display: grid;
+    grid-template-columns: repeat(3, 82px);
+    grid-column-gap: 5px;
+    margin-bottom: 28px; }
+  .description__text {
+    height: 120px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    margin-bottom: 28px; }
+  .description__link {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+    .description__link:hover {
+      color: #00acdc; }
+
+.amenities {
+  margin-bottom: 66px; }
+  .amenities__title {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 21px; }
+  .amenities__including {
+    display: grid;
+    grid-template-columns: repeat(2, 176px);
+    grid-template-rows: repeat(2, 29px);
+    grid-column-gap: 20px;
+    grid-row-gap: 13px;
+    margin-bottom: 13px; }
+  .amenities__link {
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+    .amenities__link:hover {
+      color: #00acdc; }
+
+.reviews {
+  margin-bottom: 15px; }
+  .reviews__title {
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 32px; }
+  .reviews__text {
+    height: 120px;
+    font-size: 16px;
+    line-height: 19px; }
+
+.person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 14px; }
+  .person__photo {
+    width: 50px;
+    height: 50px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    margin-right: 21px; }
+  .person__name {
+    margin-bottom: 2px; }
+
+.hosted {
+  margin-bottom: 75px; }
+  .hosted__title {
+    font-size: 28px;
+    line-height: 33px;
+    font-weight: bold;
+    margin-bottom: 11px; }
+  .hosted__where {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 11px; }
+  .hosted__text {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 30px; }
+  .hosted__button {
+    display: block;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #118488;
+    border-radius: 4px;
+    background-color: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+    .hosted__button:hover {
+      background-color: #118488; }
+  .hosted__link {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #118488;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+    .hosted__link:hover {
+      color: #fff; }
+
+.booking {
+  width: 330px;
+  height: 319px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #e1e7ed;
+  border-radius: 3px;
+  padding: 30px 30px 38px 30px;
+  margin-left: 80px; }
+  .booking__price {
+    margin-bottom: 39px; }
+  .booking__input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #e1e7ed;
+    border-radius: 3px;
+    margin-bottom: 16px; }
+  .booking__button {
+    display: block;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    background-color: #fd5c63;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+    .booking__button:hover {
+      background-color: #fff;
+      border: 1px solid #fd5c63; }
+  .booking__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+    .booking__link:hover {
+      color: #fd5c63; }
+
+@font-face {
+  font-family: Avenir;
+  src: url("../fonts/Avenir-Book.ttf");
+  font-weight: normal; }
+
+@font-face {
+  font-family: Avenir;
+  src: url("../fonts/Avenir-Heavy.ttf");
+  font-weight: bold; }
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  margin: 0;
+  font-family: Avenir, sans-serif;
+  color: #3d4e61; }
+
+.promo {
+  background-image: url(../images/promo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 464px; }
+
+.main-container {
+  width: 901px;
+  margin: 39px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+/*# sourceMappingURL=main.css.map */
